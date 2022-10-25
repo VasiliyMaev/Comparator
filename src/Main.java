@@ -4,10 +4,10 @@ import java.util.List;
 public class Main {
     public static void main(String[] args) {
         List<Person> personList = new ArrayList<>();
-        personList.add(new Person("Котофей", "Пупочкин", 23));
-        personList.add(new Person("Иван", "Табуреткин-Заводской", 42));
-        personList.add(new Person("Катерина", "Барабанова Трубская", 44));
-        personList.add(new Person("Софья", "Дранникова-Блинова-Пирожочкина", 22));
+        personList.add(new Person("РљРѕС‚РѕС„РµР№", "РџСѓРїРѕС‡РєРёРЅ", 23));
+        personList.add(new Person("РРІР°РЅ", "РўР°Р±СѓСЂРµС‚РєРёРЅ-Р—Р°РІРѕРґСЃРєРѕР№", 42));
+        personList.add(new Person("РљР°С‚РµСЂРёРЅР°", "Р‘Р°СЂР°Р±Р°РЅРѕРІР° РўСЂСѓР±СЃРєР°СЏ", 44));
+        personList.add(new Person("РЎРѕС„СЊСЏ", "Р”СЂР°РЅРЅРёРєРѕРІР°-Р‘Р»РёРЅРѕРІР°-РџРёСЂРѕР¶РѕС‡РєРёРЅР°", 22));
 
         SurnameLength surnameLength = new SurnameLength(1);
 
